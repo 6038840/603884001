@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>湖北青年有家 · 一期运营原型 V4.0</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="docs.css">
+</head>
+<body>
+<main class="doc">
+  <small>湖北青年有家 / 小程序 V4.0 / 后台管理 2.0 / 交付导航</small>
+  <h1>首页认真找房，详情自然推荐。</h1>
+  <p class="intro">保留已上线首页的信息流骨架：品牌与活动轮播、五项金刚区、两张矮卡片、双列房源。推荐只在房源或项目详情发起；“我的”按四类服务组织。金橙色延续安居品牌，紫色用于活动与福利。通勤找房沿用现有小程序的条件和结果页面。原有一期活动、轻任务、新人礼、福利、管家共创及后台继续可用。这里是可交互的 HTML 原型，不是已上线系统。</p>
+  <div class="cards">
+    <a href="index.html"><h2>01　小程序原型 →</h2><p>看房、通勤找房、调查、生活知识、活动、福利、推荐好友与进度查询；原有管家共创入口保留。</p></a>
+    <a href="admin.html#/rules"><h2>02　后台管理 2.0 →</h2><p>积分商城置于活动运营管理之前；奖励规则支持范围、限制、草稿与发布。问卷、豆包卡库、好友核实及成交录入已同步。</p></a>
+    <a href="features.html"><h2>03　产品功能清单 →</h2><p>按一级菜单 / 二级菜单 / 三级菜单 / 功能描述检索，已同步 V4.0 首页、分类和详情交互。</p></a>
+    <a href="admin2-spec.html"><h2>04　后台 2.0 设计说明 →</h2><p>菜单、规则字段、状态与按钮、问卷、数字礼品及资料来源；与用户页面分开，便于产品评审。</p></a>
+  </div>
+  <nav><a href="v4-spec.html">小程序 V4.0 设计说明 →</a><a href="spec.html">原有一期设计说明 →</a><a href="index.html#/recommend">推荐玩法说明 →</a><a href="index.html#/surveys">需求调查 →</a></nav>
+  <h2>建议体验顺序</h2>
+  <ol>
+    <li>小程序首页 → 手动切换第2/3张轮播 → 新人礼 / 高校行；两张矮卡片进入政策与紫色“新人安家”。下方继续浏览12套截图参考房型。</li>
+    <li>通勤找房 → 输入目的地 → 选择轨交／骑行／步行／驾车与时长 → 查看现有小程序样式的找房结果；政策资讯 → 10项可勾选找房清单。需要推荐好友时，进入具体房间或项目详情，再选择好友或群聊分享。</li>
+    <li>后台“好友推荐” → 对待核实记录确认有效 → 对有效咨询录入线下签约成交；回到小程序“我的推荐”查看进度与积分。</li>
+    <li>首页“活动专区” → 轻任务、生活笔记、新人礼与积分福利；首页“需求调查” → 三套问卷。“我的”按找房服务、活动与福利、内容与共创、账户服务归类。</li>
+    <li>小程序“我的 / 管家共创” → 已通过的管家进入工作台；新建活动或内容后在后台审核。</li>
+  </ol>
+  <h2>一期保留内容</h2>
+  <p>活动报名、现场核验、内容审核、轻任务、积分兑换和券包都保留。新人见面礼已替换为“豆包流量卡”，使用提供的豆包头像，支持领取与卡片记录，不再展示筹备预告；积分商城早餐券及历史记录保留。可查看 <a href="index.html#/newcomer">新人礼</a>、<a href="index.html#/ai-gift/n1">流量卡详情</a>、<a href="admin.html#/newcomers/n1/ai-edit">后台礼品配置</a> 和 <a href="features.html">功能清单</a>。原型卡号仅演示，未连接真实权益发放。</p>
+  <div class="notice">首页12套房型的图片、面积、价格，以及通勤找房中的三张结果卡，来自用户提供的当前小程序截图，只是快照，不代表实时可租或实时通勤计算。项目均价和资格材料另取自<a href="https://www.hanyang.gov.cn/zwgk_38/xxgkml/ggzypz/zfbz1/bzxzfzc/202608/t20260807_2831039.shtml" target="_blank" rel="noreferrer">汉阳区政府公开资料</a>。Figma活动主视觉与原有生成插画不冒充房源实拍。活动、问卷、人物、电话、咨询、积分与兑换均为本机演示数据，不会发短信、提交给运营方或真实发奖。</div>
+  <h2>保存与联动</h2>
+  <p>V4.0 仅更新本地原型文件，未发布到生产环境，也未变更线上小程序。可在 <a href="index-v3.html">V3.0 布局对照</a> 查看上一版布局，或查看 <a href="v3-spec.html">V3.0 推荐及后台设计说明</a>。</p>
+  <p>用同一个浏览器、同一个站点地址打开小程序与后台，即可让演示数据联动；直接以本机文件方式打开时，浏览器可能隔离页面存储。刷新会保留本机记录，重置后恢复初始样例。平台运营预算10万元、成交奖由武汉城投安家乐寓承担已按讨论录入。20／300积分与每元100积分仍是讨论用样例，不是现金兑换承诺；实际权益采购价格另行确认。后台2.0只更新本地原型，未部署生产环境。</p>
+  <button class="btn danger" id="reset">重置演示数据</button><span id="reset-result" class="small muted"></span>
+  <p class="small muted mt">重置只清除此原型的本机演示数据，不影响其他网站和真实业务。</p>
+</main>
+<script>document.querySelector('#reset').onclick=()=>{if(confirm('重置后，本机新增和修改的演示记录将清除。继续吗？')){localStorage.removeItem('anju-phase1-v1');document.querySelector('#reset-result').textContent='已重置，请刷新小程序和后台。'}};</script>
+</body>
+</html>

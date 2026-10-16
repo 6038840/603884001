@@ -1,0 +1,6 @@
+.admin-shell .sidebar a[href="#/referrals"] span{font-size:19px;font-weight:700}
+.admin-shell .table-wrap td b{font-weight:600}
+.admin-shell .table-wrap td small{display:inline-block;margin-top:4px}
+.admin-shell .table-actions .btn{min-height:30px;padding:4px 10px;font-size:12px;border-radius:5px}
+.admin-shell .table-actions .btn.primary{color:#fff}
+.admin-shell .action-note{margin:20px 0;color:#677487;font-size:13px;line-height:1.6}
